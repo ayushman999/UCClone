@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/seller_card"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/seller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javed Habib"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/seller_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skill: Salon"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_below="@id/seller_name"
+            android:textColor="@android:color/holo_red_light"
+            />
+        <View
+            android:id="@+id/view_margin"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_below="@id/seller_skill"
+            />
+        <TextView
+            android:id="@+id/seller_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_margin"
+            android:text="Address: kajlasdjfla"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@android:color/darker_gray"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

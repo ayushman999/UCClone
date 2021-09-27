@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354074152768",
+    "project_id": "urbanclapclone-ebb79",
+    "storage_bucket": "urbanclapclone-ebb79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354074152768:android:5ff2b9583ef510535df4a5",
+        "android_client_info": {
+          "package_name": "com.ayushman999.urbanclapclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354074152768-rhk3lnjk3drnr2qoe5l2v55l6pr7hs2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg_RSupM7sgp1f0Wn9GZ7T1IQZQCWX2RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354074152768-rhk3lnjk3drnr2qoe5l2v55l6pr7hs2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
